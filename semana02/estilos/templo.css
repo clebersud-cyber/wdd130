@@ -5,15 +5,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee);
+    background-color: #eee;
 }
 
 header,
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 header {
@@ -23,6 +23,7 @@ header {
 main {
     margin: 0 auto;
     width: 600px;
+    padding: 20px 0;
 }
 
 h1 {
@@ -32,13 +33,15 @@ h1 {
 
 picture {
     display: block;
+    text-align: center;
     margin-bottom: 30px;
 }
 
 img {
-    width: 600px;
+    width: 584px;
     height: auto;
-    box-shadow: #333;
+    border: 8px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
 section {
