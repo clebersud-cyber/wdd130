@@ -1,9 +1,19 @@
+:root {
+    --cor-fundo-principal: #eee;
+    --cor-borda-clara: rgb(0 0 0 / .1);
+    --cor-borda-media: rgba(0 0 0 / .3);
+    --cor-borda-footer: #555;
+    --cor-sombra: #777;
+
+    --espacamento-padrao: 1rem;
+}
+
 main {
     width: 75vw;
-    margin: 1rem auto;
-    background-color: #eee;
-    padding: 1rem;
-    border: 1px solid rgb(0 0 0 / .1);
+    margin: var(--espacamento-padrao) auto;
+    background-color: var(--cor-fundo-principal);
+    padding: var(--espacamento-padrao);
+    border: 1px solid var(--cor-borda-clara);
 }
 
 p {
@@ -13,14 +23,14 @@ p {
 .col1 img {
     float: right;
     margin: 0 0 15px 15px;
-    border: 1px solid rgba(0 0 0 / .3);
-    box-shadow: 0 0 30px #777;
+    border: 1px solid var(--cor-borda-media);
+    box-shadow: 0 0 30px var(--cor-sombra);
 }
 
 footer {
-    border-top: 1px solid #555;
+    border-top: 1px solid var(--cor-borda-footer);
     padding-top: 5px;
-    /* Remova o comentário abaixo e observe os resultados. */
 
+    /* Remova o comentário abaixo e observe os resultados. */
     /* clear: both; */
 }
