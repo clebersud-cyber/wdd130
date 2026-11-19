@@ -1,10 +1,6 @@
 :root {
     --cor-primaria: #0d4f8b;
-    --cor-secundaria: #2a9d8f;
     --cor-destaque1: #264653;
-    --cor-destaque2: #f4a261;
-    --cor-clara: #f8f9fa;
-
     --fonte-titulo: Georgia, serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
